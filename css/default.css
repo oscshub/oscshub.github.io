@@ -1,0 +1,30 @@
+:root {
+    --bg-color: #0f0f0f;
+    --bg-color2: #0d0d0d;
+    --text-color: #e0e0e0;
+    --accent-color: #707070;
+    --dim-gray: #1a1a1a;
+    --outline: #0d0d0d;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+}
